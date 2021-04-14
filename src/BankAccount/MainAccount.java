@@ -52,7 +52,6 @@ public class MainAccount {
     {
         if (balance >= deposite)
         {
-            System.out.println("Jg");
             balance -= deposite;
             return true;
         }
