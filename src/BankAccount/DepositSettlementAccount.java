@@ -18,6 +18,7 @@ public class DepositSettlementAccount extends MainAccount  {
         return depositbalance;
     }
 
+
     public boolean blockTakeoff ()
     {
         if (calendar.get(Calendar.MONTH) <= today.get(Calendar.MONTH) && calendar.get(Calendar.HOUR) <= today.get(Calendar.HOUR))
