@@ -2,6 +2,7 @@ package BankCustomers;
 
 public class PhysicalPerson  extends Clients{
 
+
     @Override
     public double depositeMoney(double deposite) {
 
